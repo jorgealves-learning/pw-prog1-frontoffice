@@ -1,3 +1,5 @@
 importar Restaurante
 importar Order
 importar Pagar
+
+funcao ticket (prato, restaurante,user,quantidade):
