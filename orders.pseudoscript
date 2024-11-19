@@ -14,3 +14,5 @@ funcao escolhe_menu(user)
         entrada("Quantos pratos deseja de {prato}: " quantidadePrato)
 
         Restaurante.validar_comida(pratos)
+
+        imprime("Deseja adicionar ao carrinho?")
