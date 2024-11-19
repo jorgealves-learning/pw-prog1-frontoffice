@@ -24,3 +24,5 @@ Gerencia todo o fluxo de escolha do restaurante e do prato.
    - Valida os itens escolhidos.
 2. **Adicionar ao Carrinho**:
    - Chama `Carrinho.ticket()` para salvar o pedido se o usuário confirmar.
+  
+   Diogo Lopes
