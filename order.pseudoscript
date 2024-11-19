@@ -1,0 +1,24 @@
+importar Carrinho
+importar BackOffice/Restaurantes como Restaurantes
+
+Restaurante = Restaurantes.Restaurantes
+
+opcao == NULL
+funcao escolhe_menu(user)
+    enquanto opcao == ["nao","n"]:
+        Restaurante.Mostar_Restaurantes()
+        entrada("Insira o nome do restaurante desejado: ", restaurante)
+
+        Restaurante.Mostar_menu()
+        entrada("Insira o nome do prato que deseja: " prato)
+        entrada("Quantos pratos deseja de {prato}: " quantidadePrato)
+
+        Restaurante.validar_comida(pratos)
+
+        imprime("Deseja adicionar ao carrinho?")
+        imprime("Sim")
+        imprime("Não")
+        entrada("Escolha umas das opcoes", opcao)
+
+        se opcao == ["sim","s"]
+            Carrinho.ticket(prato = prato, restaurante = restaurante,user = user, quantidade = quantidadePrato)
