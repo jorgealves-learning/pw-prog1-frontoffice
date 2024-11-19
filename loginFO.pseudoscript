@@ -10,3 +10,4 @@ segredo("Introduzir password: ", passwordUsuario)
 Login(emailUsuario)
 
 se opcao == 2 OU "registar":
+entrada("Introduzir email: ", emailUsuario)
