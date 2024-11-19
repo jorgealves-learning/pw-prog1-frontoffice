@@ -1,7 +1,7 @@
 importar User
 
 imprime("1- Login")
-entrada("2- Registar")
+imprime("2- Registar")
 entrada("O que deseja fazer? ", opcao)
 
 se opcao == 1 OU "login":
