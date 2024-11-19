@@ -10,3 +10,5 @@ funcao escolhe_menu(user)
         entrada("Insira o nome do restaurante desejado: ", restaurante)
 
         Restaurante.Mostar_menu()
+        entrada("Insira o nome do prato que deseja: " prato)
+        entrada("Quantos pratos deseja de {prato}: " quantidadePrato)
