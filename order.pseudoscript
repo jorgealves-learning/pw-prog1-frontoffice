@@ -4,3 +4,4 @@ importar BackOffice/Restaurantes como Restaurantez
 Restaurante = Restaurantez.Restaurantes
 
 opcao == NULL
+funcao escolhe_menu(user)
