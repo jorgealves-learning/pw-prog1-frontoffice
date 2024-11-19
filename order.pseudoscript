@@ -8,3 +8,5 @@ funcao escolhe_menu(user)
     enquanto opcao == "nao":
         Restaurante.Mostar_Restaurantes()
         entrada("Insira o nome do restaurante desejado: ", restaurante)
+
+        Restaurante.Mostar_menu()
