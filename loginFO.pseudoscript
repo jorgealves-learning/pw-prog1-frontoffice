@@ -8,3 +8,5 @@ se opcao == 1 OU "login":
 entrada("Introduzir email: ", emailUsuario)
 segredo("Introduzir password: ", passwordUsuario)
 Login(emailUsuario)
+
+se opcao == 2 OU "registar":
