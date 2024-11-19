@@ -12,4 +12,4 @@ Login(emailUsuarioadd , passwordUsuario)
 se opcao == 2 OU "registar":
 entrada("Introduzir email: ", emailUsuario)
 segredo("Introduzir password para a sua conta", passwordUsuario)
-AddNewUser(emailUsuario)
+AddNewUser(emailUsuarioadd , passwordUsuario)
