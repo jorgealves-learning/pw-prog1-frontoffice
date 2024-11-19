@@ -8,3 +8,4 @@ funcao ticket (prato, restaurante,user,quantidade):
     se Restaurante.Restaurantes.validar_comida(prato) == false
         crash("o prato nao se encontra no menu")
     se prato em Restaurante.Restaurantes.Lista.Restaurante[1]
+        preco = Restaurante.Restaurantes.Lista.Restaurante[1].Comidas[0]
