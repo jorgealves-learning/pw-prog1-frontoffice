@@ -6,3 +6,4 @@ Restaurante = Restaurantez.Restaurantes
 opcao == NULL
 funcao escolhe_menu(user)
     enquanto opcao == "nao":
+    Restaurante.Mostar_Restaurantes()
