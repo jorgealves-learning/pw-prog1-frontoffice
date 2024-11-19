@@ -21,4 +21,4 @@ funcao escolhe_menu(user)
         entrada("Escolha umas das opcoes", opcao)
 
         se opcao == "sim"
-        
+            Carrinho.ticket(prato = prato, restaurante = restaurante,user = user, quantidade = quantidadePrato)
