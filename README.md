@@ -23,3 +23,10 @@ A função principal é 'ticket()', que processa o pedido, valida o prato escolh
 4. **Pagamento**: Se o utilizador confirmar a finalização, o sistema chama o módulo 'Pagar' para realizar o pagamento.
 5. **Exibição do menu**: Após o pagamento ou cancelamento, o sistema exibe novamente o menu de opções.
 
+## Exemplo de Execução
+
+Exemplo simples:
+1. O sistema recebe o menu de pratos selecionado e quantidade.
+2. O sistema valida se o prato está no menu.
+3. Se o prato for válido, o sistema pergunta se o utilizador deseja finalizar o pedido.
+4. Caso o utilizador confirme, o sistema realiza o pagamento e exibe o recibo.
