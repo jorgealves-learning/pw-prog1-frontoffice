@@ -1,7 +1,7 @@
 importar Carrinho
-importar BackOffice/Restaurantes como Restaurantez
+importar BackOffice/Restaurantes como Restaurantes
 
-Restaurante = Restaurantez.Restaurantes
+Restaurante = Restaurantes.Restaurantes
 
 opcao == NULL
 funcao escolhe_menu(user)
