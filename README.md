@@ -1,9 +1,13 @@
-# pw-prog1-frontoffice
-ETICEats Frontoffice
+# User Authentication
+A simple authentication system for logging in or registering a user by email and password.
 
-## Requirements
-- each Group element Must Fork this repo
-- One PR per Group element
-- Each PR MUST contains at least 15 commits
-- Each commit MUST follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- Each Group element MUST add proper documentation.
+
+# Features
+- Login: User can log in with email and password.
+- Register: User can create a new account with email and password.
+
+
+# How It Works
+1. The user is prompted to choose between Login or Register.
+2. If logging in, they enter their email and password, which are verified.
+3. If registering, they provide their email and password to create a new account.
