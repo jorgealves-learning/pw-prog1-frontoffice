@@ -19,3 +19,6 @@ funcao escolhe_menu(user)
         imprime("Sim")
         imprime("Não")
         entrada("Escolha umas das opcoes", opcao)
+
+        se opcao == "sim"
+        
