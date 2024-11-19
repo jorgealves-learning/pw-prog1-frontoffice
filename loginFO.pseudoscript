@@ -6,3 +6,4 @@ entrada("O que deseja fazer? ", opcao)
 
 se opcao == 1 OU "login":
 entrada("Introduzir email: ", emailUsuario)
+segredo("Introduzir password: ", passwordUsuario)
