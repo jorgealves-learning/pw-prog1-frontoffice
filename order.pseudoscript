@@ -5,7 +5,7 @@ Restaurante = Restaurantez.Restaurantes
 
 opcao == NULL
 funcao escolhe_menu(user)
-    enquanto opcao == "nao":
+    enquanto opcao == ["nao","n"]:
         Restaurante.Mostar_Restaurantes()
         entrada("Insira o nome do restaurante desejado: ", restaurante)
 
@@ -20,5 +20,5 @@ funcao escolhe_menu(user)
         imprime("Não")
         entrada("Escolha umas das opcoes", opcao)
 
-        se opcao == "sim"
+        se opcao == ["sim","s"]
             Carrinho.ticket(prato = prato, restaurante = restaurante,user = user, quantidade = quantidadePrato)
