@@ -14,3 +14,12 @@ O projeto é composto pelos seguintes módulos:
 - **Pagar**: Trata da parte de pagamento do pedido.
 
 A função principal é 'ticket()', que processa o pedido, valida o prato escolhido e chama as funções de pagamento e exibição de menu.
+
+## Fluxo do Sistema
+
+1. **Validação do prato**: A função 'ticket()' valida se o prato escolhido está disponível no menu do restaurante.
+2. **Registo do pedido**: Se o prato estiver disponível, é registado o pedido juntamente com a quantidade solicitada.
+3. **Confirmação do pedido**: O sistema pergunta ao utilizador se deseja finalizar o pedido.
+4. **Pagamento**: Se o utilizador confirmar a finalização, o sistema chama o módulo 'Pagar' para realizar o pagamento.
+5. **Exibição do menu**: Após o pagamento ou cancelamento, o sistema exibe novamente o menu de opções.
+
