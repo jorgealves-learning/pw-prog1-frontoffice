@@ -16,3 +16,8 @@ funcao escolhe_menu(user)
         Restaurante.validar_comida(pratos)
 
         imprime("Deseja adicionar ao carrinho?")
+        imprime("Sim")
+        imprime("Não")
+        entrada("Escolha umas das opcoes", opcao)
+
+        
