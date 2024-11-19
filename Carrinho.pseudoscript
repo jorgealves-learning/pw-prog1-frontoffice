@@ -14,3 +14,4 @@ funcao ticket (prato, restaurante,user,quantidade):
     entrada("Deseja finalizar o pedido",opcao)
     se opcao == 'Sim':
         Pagar.pagar(ticket = ticket,user = user)
+    Order.mostrar_menus()
