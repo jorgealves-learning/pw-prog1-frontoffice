@@ -1,0 +1,3 @@
+se opcao == 'Sim'
+        Pagar.pagar(ticket = ticket,user = user)
+    Order.mostrar_menus()
